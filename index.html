@@ -15,28 +15,27 @@
         margin-bottom: 16px;
 
       }
-  .ass {
-    background-color: orange;
-    color: white; 
-    
-  }
-  #special {
-    background-color: orange;
-    color: white; 
-  }
-  .ass2 {
-     margin-left: 16px;
-    background-color: orange;
-    border: 3px solid red;
-  }
-  .ass3 {
-    margin-left: 16px;
-    background-color: orange;
-  }
-  span {
-    background-color: green;
-    color: white;
-  }
+  ol li {
+  margin-bottom: 16px;
+}
+
+ol li {
+  background-color: green;
+  color: white;
+}
+
+ul li {
+  background-color: orange;
+  color: white;
+}
+
+ul li#special {
+  border: 3px solid red;
+}
+
+ul li:nth-child(n+4) {
+  margin-left: 16px;
+}
     </style>
   </head>
 
@@ -54,9 +53,9 @@
       <li><span class="ass">Europe</span></li>
       <li><span class="ass">Asia</span></li>
       <li><span id="special">Africa</span></li>
-      <li><span class="ass2">Antarctida</span></li>
-      <li><span class="ass3">South America</span></li>
-      <li><span class="ass3">North America</span></li>
+      <li id="ss"></li><span class="ass2">Antarctida</span></li>
+      <li id="ss"><span class="ass3">South America</span></li>
+      <li id="ss"><span class="ass3">North America</span></li>
     </ul>
   </body>
 </html>
