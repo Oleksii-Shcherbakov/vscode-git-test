@@ -10,27 +10,68 @@
       crossorigin="anonymous"
     />
     <style>
-      input[type="checkbox"]:checked {
-    margin-left: 50px;
+  body {
+    background: #bdc3c7;
   }
-  
-  label {
-    text-transform: uppercase;
+
+  h1 {
+    color: #9b59b6;
   }
-  
-  #special::first-letter {
-    color: green;
-    font-size: 100px;
+
+  h2 {
+    color: orange;
   }
-  
-  h1:hover {
+
+  li {
     color: blue;
   }
-  
+
+  p {
+    background: yellow;
+    font-size: 25px;
+  }
+
+  input {
+    border: 3px solid red;
+  }
+
+  input[type="text"] {
+    background: gray;
+  }
+
+  .hello {
+    background: white;
+  }
+
+  #special {
+    border: 2px solid blue;
+  }
+
+  div p {
+    font-size: 25px;
+  }
+
+  div p:nth-of-type(2) {
+    background: yellow;
+  }
+
+  div:nth-of-type(3) p {
+    background: yellow;
+  }
+
+  div:nth-of-type(3) p:nth-of-type(2) {
+    border: 5px solid white;
+  }
+
+  div:nth-of-type(3) em {
+    color: white;
+    font-size: 20px;
+  }
+
   a:visited {
     color: gray;
   }
-    </style>
+</style>
   </head>
 
   <body>
@@ -90,8 +131,8 @@
       <a href="https://www.facebook.com">I am another link to facebook</a>
       <br />
 
-      <label><input type="text" name="name" /> NAME</label><br />
-      <label><input type="password" name="password" /> PASSWORD</label><br />
+      <label><input type="text" name="name" /> Name</label><br />
+      <label><input type="password" name="password" /> Password</label><br />
     </div>
 
     <p>PARAGRAPH NOT INSIDE A DIV</p>
