@@ -10,25 +10,45 @@
       crossorigin="anonymous"
     />
     <style>
-        div {
-          font-size: 24px;
-          padding: 20px;
-          margin: 50px 100px 50px 100px;
-          border-top: 10px solid firebrick;
-          border-right: 20px solid chartreuse;
-          border-bottom: 10px dashed burlywood;
-          border-left: 20px dashed aqua;
-          width: 500px;
-          height: 200px;
-          box-sizing: border-box;
-          background-color: bisque;
-        }    
+      * {
+        box-sizing: border-box;
+      }
+        .tr {
+          background: forestgreen;  
+          border-radius: 16px;
+        } 
+        .oval { 
+           background-color: darkmagenta;
+           border-radius:50%;  
+        }
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            border-radius: 50px;
+            margin: 50px;
+        }
+        .class {
+           width: 100px;
+           height: 50px;
+           margin: 50px;
+        }
+        .tree {
+          width: 50px;
+          height: 50px;  
+          border: 50px solid transparent;
+          border-top-color: brown;
+          margin: 50px;
+        }
   
 </style>
   </head>
 
   <body>
-       <div>I am colorful rectangle</div>
+       <div class="tr class"></div>
+       <div class="oval class"></div>
+       <div class="circle "></div>
+       <div class="tree"></div>
        
   </body>
 </html>
